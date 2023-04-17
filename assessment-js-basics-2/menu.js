@@ -206,24 +206,16 @@ console.log(filteredFood)
 */ 
 
 //CODE HERE                 key      #       above or below
-const filterByProperty = (property) => {
-    
-
-    //const problem = []  
-    //     if (type === 'above') {
-    //         problem.push(foodArr[property] >= number)
-    //     } else if (type === 'below') {
-    //         return property <= number
-    //     }
-    // return problem
-    // (type) => type {}
-    //         if (type) {
-
-
-    //     })
-}
-
-filterByProperty('rating')
+const filterByProperty = (property, number, type) => {
+        const filteredArray = () => {
+            if (this.type === 'above') {
+                filteredArray.filter(foodArr[this.property] >= this.number)
+            } else if (this.type === 'below') {
+               filteredArray.filter(foodArr[this.property] <= this.number)
+        }
+        return filteredArray
+    }
+    }
 
 
 
@@ -237,4 +229,4 @@ filterByProperty('rating')
 */
 
 //CODE HERE
-console.log(filterByProperty('rating'))
+console.log(filterByProperty('rating', 2, 'below'))
